@@ -1,5 +1,5 @@
-# beamGUI-project
-# Beam Profile Analysis GUI
+# Longitudinal_bunch_length_GUI_project
+# Longitudinal_bunch_length_Analysis_GUI
 
 This repository contains a GUI application built with PyQt5, designed to calculate the beam profile from images captured with a streak camera at VEPP-4M, NovoFEL, and VEPP-2000. The tool allows users to visualize images, analyze beam profiles, and generate data plots to study the energy spread and beam characteristics based on synchrotron radiation data.
 
