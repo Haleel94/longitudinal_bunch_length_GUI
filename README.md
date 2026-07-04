@@ -67,14 +67,18 @@ The Beam Profile Analysis GUI provides an intuitive interface for beam diagnosti
 ## File Structure
 
 ```plaintext
-beam-profile-gui/
-├── main.py                 # Entry point for the application
-├── gui/                    # PyQt5 GUI elements and layout files
-├── images/                 # Sample images for testing
-├── utils/                  # Utility functions for calculations and processing
-├── data/                   # Folder to store output profiles and logs
-├── requirements.txt        # List of dependencies
-└── README.md               # Project documentation
+longitudinal_bunch_length_gui/
+├── src/
+│   ├── main.py                         # Main GUI application
+│   ├── beam_profile.py                 # Beam profile extraction from streak camera images
+│   ├── beam_profile_npy_files.py       # Beam profile analysis for .npy data files
+│   ├── FWHM_cal.py                     # Full Width at Half Maximum (FWHM) calculations
+│   ├── distance_btw_micro_bunches.py   # Micro-bunch spacing analysis
+│   ├── noise_smoothing.py              # Noise reduction and smoothing utilities
+│   └── phosphor_screen_calib.py        # Phosphor screen calibration functions
+├── examples/                           # Example input files and sample data
+├── README.md                           # Project documentation
+└── .gitignore                          # Git ignore rules
 ```
 
 ## Contributing
